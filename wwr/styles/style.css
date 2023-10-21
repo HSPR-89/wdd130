@@ -35,13 +35,13 @@ header {
     background-color: #52796f;
 }
 nav a {
-    color: #0a0a0a;
+    color: #0a0000;
     padding: 14px;
     text-decoration: none;
     padding: 35px;
 }
 nav a:hover {
-    background-color: #0a0a0a;
+    background-color: #84a98c;
     color: #0a0a0a
 }
 .book, .join {
