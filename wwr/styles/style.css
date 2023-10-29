@@ -71,8 +71,7 @@ nav a:hover {
     margin-top: 50px;
     border-radius: 5px;
 }
-.book:hover, 
-.join:hover {
+.book:hover, .join:hover {
     background-color: #84a98c;
     color: #030c01;
 }
@@ -170,10 +169,6 @@ footer .social img{
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
-}
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
 }
 #hero-box {
     grid-column: 1/4;
