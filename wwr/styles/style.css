@@ -6,7 +6,7 @@ main {
     grid-template-columns: repeat(10, 1fr);
 }
 
-#main child {
+.main-child {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     
