@@ -6,18 +6,12 @@ main {
     grid-template-columns: repeat(10, 1fr);
 }
 
-.main-child {
+.questions {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     
 }
 
-.question1 {
-    text-align: justify;
-    display: grid;
-    background-color: red;
-    grid-template-columns: repeat(6, 1fr);
-}
 
 #content {
     max-width: 1600px;
