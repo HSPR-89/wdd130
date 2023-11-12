@@ -12,9 +12,10 @@ main {
     
 }
 
-#question1 {
+.question1 {
     text-align: justify;
     display: grid;
+    background-color: red;
     grid-template-columns: repeat(6, 1fr);
 }
 
