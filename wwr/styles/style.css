@@ -304,15 +304,4 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
-
-    .section-questions {
-        grid-column: 1/10;
-        margin-top: 100px;
-        text-align: justify;
-    }
-
-
-    .section-imageQA {
-        grid-column: 1/9;
-    }
 }
