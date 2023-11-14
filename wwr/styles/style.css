@@ -133,6 +133,12 @@ nav a:hover {
     font-size: 2em;
     margin-top: 10px;
 }
+.home-title1 {
+    color: #DBE6E3;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 2em;
+    margin-top: 10px;
+}
 
 h4 {
     color: #cad2c5;
