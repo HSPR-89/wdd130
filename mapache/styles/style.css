@@ -16,6 +16,8 @@ main {
     grid-column: 1/2;
     margin: auto; 
     border: 10px solid #1db0dc;
+    border-width: 10px 6px 6px 10px;
+    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
 }
 
 
@@ -25,6 +27,8 @@ main {
     grid-column-start: 4;
     grid-column-end: 5;  
     border: 10px solid #1db0dc;
+    border-width: 10px 6px 6px 10px;
+    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
 }
 
 .section-text {
