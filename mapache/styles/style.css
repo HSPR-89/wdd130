@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mooli&display=swap');
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin-top: 200px;
+    align-items: center;
+}
+
+
+.homepic {
+    width: 100%;
+    display: block;
+    grid-column: 1/2;
+    margin: auto; 
+    border: 10px solid #1db0dc;
+}
+
+
+.homepic1 {
+    width: 100%;
+    display: block;
+    grid-column-start: 4;
+    grid-column-end: 5;  
+    border: 10px solid #1db0dc;
+}
+
+.section-text {
+    width: 75%;
+    grid-column: 2/4;
+    margin: auto;
+    text-align: justify;
+    grid-row: 1/2;
+    
+}
+
+.section-text h2 {
+   color: #fbcd57;
+   text-align: center;
+    
+}
+
+.section-text h2:hover {
+    background-color: #fbcd57;
+    color: #0a0a0a
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#background {
+    height: 725px;
+    grid-column: 1/5;
+    grid-row: 4/9;
+}
+
+
+
+header {
+    background-color: #1db0dc;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a {
+    color: #0a0000;
+    padding: 14px;
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
+}
+
+body {
+    background-color: #4e86c1;
+    font-family: "Monserrat", "Open Sans";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover {
+    background-color: #fbcd57;
+    color: #0a0a0a
+}
+
+
+
+#background {
+    background-color: #52796f;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer {
+    background-color: #ea6d57;
+    color: #0a0a0a;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    padding-top: 10px;
+    width: 80px;
+}
+
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+
+#logo_link {
+    padding-top: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+   
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+
+    nav,
+    footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+
+    .homepic1,
+    .homepic {
+        margin: 50px auto;
+        width: 60%;
+    }
+
+    #background {
+        display: none;
+    }
+
+   
+
+    footer {
+        margin-top: 25px;
+    }
+}

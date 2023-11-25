@@ -1,9 +1,29 @@
-.main-para {
-  font-size: 1.5em;
-  line-height: 1.5em;
+section {
+  width: 50%;
+  border: 1px solid;
 }
 
-#active {
-  background-color: white;
-  color: steelblue;
+.block1 {
+  margin-right: auto;
+  
+}
+
+.block2 {
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.block3 {
+  margin-left: auto;
+}
+
+.block4 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block1 p1 {
+  text-align: center;
+  font-weight: bold;
 }
