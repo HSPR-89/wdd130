@@ -14,10 +14,10 @@ main {
     width: 100%;
     display: block;
     grid-column: 1/2;
-    margin: auto; 
+    margin: auto;
     border: 10px solid #1db0dc;
     border-width: 10px 6px 6px 10px;
-    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
 }
 
 
@@ -25,10 +25,12 @@ main {
     width: 100%;
     display: block;
     grid-column-start: 4;
-    grid-column-end: 5;  
+    grid-column-end: 5;
     border: 10px solid #1db0dc;
     border-width: 10px 6px 6px 10px;
-    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
+
+
 }
 
 .section-text {
@@ -37,13 +39,13 @@ main {
     margin: auto;
     text-align: justify;
     grid-row: 1/2;
-    
+
 }
 
 .section-text h2 {
-   color: #fbcd57;
-   text-align: center;
-    
+    color: #fbcd57;
+    text-align: center;
+
 }
 
 .section-text h2:hover {
@@ -147,6 +149,8 @@ footer p a:hover {
 
 footer .social img {
     padding-top: 15px;
+    border-radius: 50%;
+    vertical-align: middle;
 }
 
 
@@ -162,7 +166,7 @@ footer .social img {
 
 @media screen and (max-width: 900px) {
 
-   
+
     .home-grid {
         display: block;
         height: auto;
@@ -194,7 +198,7 @@ footer .social img {
         display: none;
     }
 
-   
+
 
     footer {
         margin-top: 25px;
