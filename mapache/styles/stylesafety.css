@@ -108,7 +108,7 @@ footer .social img {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 540px;
 }
 
 
@@ -165,14 +165,83 @@ footer .social img {
 
 .imageS1 {
     grid-row: 1/2;
+    margin: 10px;
 
 }
 
 .imageS2 {
     grid-row: 2/3;
+    margin: 10px;
 
 }
 
 .imageS3 {
     grid-row: 3/4;
+    margin: 10px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+
+    nav,
+    footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+
+    .home-title1 {
+        font-size: 25px;
+        color: #6f7364;
+    }
+
+    .imageS1,
+    .imageS2
+    .imageS3 {
+        margin: 50px auto;
+        width: 60%;
+    }
+
+    #background {
+        display: none;
+    }
+
+
+
+    footer {
+        margin-top: 25px;
+    }
+
+    #hero,
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+
+    
+    #hero {
+        margin-top: 0;
+    }
+
+    #hero-msg {
+        margin-top: 0;
+    }
+
+    #hero-msg h4 {
+        display: none;
+    }
 }
