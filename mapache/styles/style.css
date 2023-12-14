@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mooli&display=swap');
 
 
 main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
    
-    margin-top: 200px;
+    margin-top: 50px;
     align-items: center;
     
 }
@@ -104,11 +104,15 @@ nav a {
 body {
     display: block;
     background-color: #4e86c1;
-    font-family: "Monserrat", "Open Sans";
+    font-family: "Monserrat", serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    }
 
 nav a:hover {
     background-color: #fbcd57;
@@ -158,7 +162,7 @@ footer a:hover {
 
 footer {
     background-color: #ea6d57;
-    color: #0a0a0a;
+    color: #fff;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -200,7 +204,7 @@ footer .social img {
 
 .home-title1 {
     color: #DBE6E3;
-    font-family: "Monserrat", "Open Sans";
+    font-family: "Monserrat", sans-serif;
     font-size: 5em;
     margin-top: 5px;
 }
@@ -270,14 +274,14 @@ footer .social img {
 
 .text1 {
     grid-row: 1/2;
-    text-align: center;
+   
     grid-column: 1/4;
     margin: 100px;
 }
 
 .text2 {
     grid-row: 2/3;
-    text-align: center;
+    
     grid-column: 3/5;
     grid-column: 2/5;
     margin: 100px;
@@ -285,7 +289,7 @@ footer .social img {
 
 .text3 {
     grid-row: 3/4;
-    text-align: center;
+   
     grid-column: 1/4;
     margin: 100px;
 
@@ -293,7 +297,7 @@ footer .social img {
 
 .text4 {
     grid-row: 4/5;
-    text-align: center;
+   
     grid-column: 2/5;
     margin: 100px;
 
@@ -305,6 +309,189 @@ footer .social img {
 
 
 
+/*Safety*/
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#content {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#background {
+    height: 725px;
+    grid-column: 1/5;
+}
+
+header {
+    background-color: #1db0dc;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a {
+    color: #0a0000;
+    padding: 14px;
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
+}
+
+body {
+    background-color: #4e86c1;
+    font-family: "Monserrat", "Open Sans";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover {
+    background-color: #fbcd57;
+    color: #0a0a0a
+}
+
+
+
+#background {
+    background-color: #52796f;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+
+}
+
+footer {
+    background-color: #ea6d57;
+    color:#fff;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    padding-top: 10px;
+    width: 80px;
+}
+
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+
+#logo_link {
+    padding-top: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 540px;
+}
+
+
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+.home-title1 {
+    color: #DBE6E3;
+    font-family: "Monserrat", sans-serif;
+    font-size: 8em;
+    margin-top: 10px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+
+.section-rules {
+    grid-column: 1/3;
+}
+
+.section-images {
+    display: grid;
+    grid-column: 3/5;
+    align-items: center;
+}
+
+.section-rules h2 {
+    text-align: center;
+
+}
+
+.section-rules p {
+    text-align: center;
+    border: 15px solid #fbcd57;
+    padding: 50px;
+    margin: 20px;
+}
+
+.imageS1 {
+    grid-row: 1/2;
+    margin: 10px;
+
+}
+
+.imageS2 {
+    grid-row: 2/3;
+    margin: 10px;
+    padding-top: 500px;
+    padding-bottom: 500px;
+
+}
+
+.imageS3 {
+    grid-row: 3/4;
+    margin: 10px;
+}
 
 
 
